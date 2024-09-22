@@ -114,11 +114,28 @@ body {
 }
 
 .phone__image-item {
-  width: 1040px;
-  height: 744px;
+  width: 500px;
+  height: 460px;
   display: inline-block;
   background-image: url("./images/phone.png");
-  background-size: 1040px 744px;
+  background-size: 500px 460px;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.start__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.start__item {
+  width: 450px;
+  height: 675px;
+  display: inline-block;
+  background-image: url("../images/navigator");
 }/*# sourceMappingURL=main.css.map */
